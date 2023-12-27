@@ -1,0 +1,128 @@
+.keep-main{
+    width: 100%;
+    background-color: #f5ba13;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 50px;
+    color: white;
+    box-shadow: 5px 3px 15px -5px #000;
+    line-height: 70px;
+}
+
+.content-main{
+    width: 30%;
+    margin: 50px auto;
+    padding: 2% 2% 0 2%;
+    box-shadow: 5px 3px 15px -5px #000000b9;
+   
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+}
+footer h3{
+    text-align: center;
+    background-color: rgb(222, 212, 199);
+    padding: 10px;
+    margin-bottom: 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    border: none;
+    font-size: 30px;
+    color: #000000e9;
+    font-weight: 600;
+    padding: 5px;
+
+}
+input::placeholder{
+    outline: none;
+    color: #000;
+    font-weight: 600;
+}
+input:focus{
+    outline: none;
+}
+textarea:focus{
+    outline: none;
+}
+textarea{
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+}
+.btn-content{
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    font-size: 40px;
+    box-shadow: 0px 0px 10px #00000045;
+    margin-left: 353px;
+    transform: translateY(20px);
+    margin-top: -30px;
+    transition: 0.3s;
+    color: #f5ba13;
+
+}
+.btn-content:hover{
+    background-color: #f5ba13;
+    color: #fff;
+}
+.note{
+    width: 20%;
+    margin: 33px ;
+    padding: 2%;
+    box-shadow: 0px 0px 10px  #0000004b;
+    display: inline-block;
+}
+.note h1{
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #2b2b2b;
+}
+.note p{
+    font-size: 20px;
+    color: #757575;
+}
+.btn-con{
+   
+    color: #f5ba13;
+    border: none;
+    margin: 10px 8px 0px 8px;
+    display: inline;
+    background-color: #fff;
+    transform: translateX(140px);
+ 
+}
+.btn-con i{
+    font-size: 30px;
+}
+.btn-edit i{
+    margin-top: 5px;
+    transform: translateY(3px);
+}
+li{
+    font-size: 18px;
+    margin-left: 60px;
+    font-weight: bold;
+    display: inline;
+    
+}
+ul{
+    list-style-type: none;
+    
+}
+li a{
+    text-decoration: none;
+    color: #000;
+  
+}

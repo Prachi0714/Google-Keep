@@ -1,0 +1,65 @@
+.temp-main{
+    padding: 3% 3%;
+    width: 30%;
+    height: 450px;
+    border:none;
+    box-shadow: 0px 0px 10px #00000018;
+    border-radius: 20px;
+    margin: 2% 35%;
+    background-image: linear-gradient(to top, #54c9f2 , #3185ee);
+
+}
+.weather-heading{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 30px;
+    font-weight: 300;
+    font-size: 50px;
+}
+.input-temp{
+    box-shadow: 0px 0px 10px #00000018;
+    width: 80%;
+    border-radius: 30px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    padding: 15px;
+    
+}
+.search-btn{
+    border-radius: 100%;
+    width: 46px;
+    height: 46px;
+    margin-left: 15px;
+   
+    border: none;
+    background-color: #fff;
+    outline: none;
+    color: grey;
+}
+.degree{
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+}
+.city{
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+}
+.input-temp::placeholder{
+    font-size: 16px;
+    color: grey;
+    padding: 10px;
+    font-weight: 300;
+}
+.sun{
+    margin-left: 25%;
+}
+.no-data{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
